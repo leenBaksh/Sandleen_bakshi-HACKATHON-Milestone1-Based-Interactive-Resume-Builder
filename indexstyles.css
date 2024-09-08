@@ -1,0 +1,163 @@
+/* General Styles */
+:root { 
+    --primary-color: #025c5f; 
+    --secondary-color: #065a5f; 
+    --background-color: #cff1f182; 
+    --text-color: #123334; 
+}
+
+body { 
+    background-image: url(https://www.hdwallpapers.in/download/fog_mountain_rock_clouds_nature_relief_wallpaper_background_4k_hd_nature-HD.jpg); 
+    background-size: cover;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    color: var(--text-color); 
+    margin: 0; 
+    padding: 0; 
+}
+
+#personal-info img { 
+    float: center; 
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    margin: 5px auto; 
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+section { 
+    background-color: var(--background-color); 
+    text-align: center; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+h1 { 
+    font-family: "Sevillana", "cursive"; 
+    font-size: 35px; 
+    text-align: center; 
+    color: var(--primary-color); 
+}
+
+h2 { 
+    font-family: "Sevillana", "cursive"; 
+    font-size: 35px; 
+    margin-top: 0; 
+    text-align: center; 
+    color: var(--secondary-color); 
+}
+
+
+
+ul { 
+    list-style-type: disc; 
+    list-style-position: inside; 
+    position: relative;
+    padding: 0; 
+    margin: 0; 
+    text-align: center; 
+}
+li { 
+    margin-bottom: 20px; 
+}
+p { 
+    font-size: 20px; 
+    font-display: inherit;
+    text-align: center; 
+    color: #184b4d; 
+    margin-top: 0; 
+}
+
+
+
+
+#toggle-skills {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#toggle-skills:hover {
+    background-color: #3e8e41;
+}
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 768px) { 
+    section { 
+        margin-bottom: 10px; 
+    } 
+}
+
+@media only screen and (max-width: 480px) { 
+    #personal-info img {
+         width: 50px; 
+         height: 50px; 
+        } 
+}
+
+footer{
+    text-align: center;
+    background-color: var(--background-color);
+    padding: 20px;
+    margin-top: 20px;
+    color: #6d8e8f;
+}
+
+.social-icons {
+    text-align: center; /* Center align the social icons */
+    margin-top: 30px;
+}
+
+.social-icon {
+    width: 1.5em;
+    height: 1.5em;
+    display: center;
+    margin: 0 15px;
+    color: #011a1b;
+    font-size: 2em;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #062628;
+}
+
+/* Media Queries for smaller devices */
+@media screen and (max-width: 768px) {
+    .social-icons {
+        margin-top: 15px; /* Reduced margin for mobile */
+    }
+    .social-icon {
+        font-size: 17em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .social-icons {
+        margin-top: 10px;
+    }
+    .social-icon {
+        font-size: 11em;
+    }
+}
+
